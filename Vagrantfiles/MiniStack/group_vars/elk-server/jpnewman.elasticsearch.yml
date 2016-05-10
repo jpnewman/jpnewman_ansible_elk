@@ -1,0 +1,5 @@
+---
+elasticsearch_with_plugin: true
+
+elasticsearch_discovery_zen_ping_multicast_enabled: 'false'
+elasticsearch_network_host: "10.10.10.10"

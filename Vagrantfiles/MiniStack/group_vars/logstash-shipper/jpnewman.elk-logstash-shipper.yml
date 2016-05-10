@@ -1,0 +1,25 @@
+---
+which_interface: eth1
+
+logstash_beats_congestion_threshold: 10
+
+logstash_geoip_known_locations:
+  -
+    name: "Big Ben London"
+    longitude: "-0.12927"
+    latitude: "51.50161"
+    networks:
+      - "192.168.0.0/16"
+  -
+    name: "Eiffel Tower Paris"
+    longitude: "2.29448"
+    latitude: "48.85837"
+    networks:
+      - "10.10.0.0/16"
+
+  -
+    name: "Times Square"
+    longitude: "-73.985174"
+    latitude: "40.759675"
+    networks:
+      - "10.11.0.0/16"

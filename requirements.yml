@@ -1,0 +1,18 @@
+---
+- src: geerlingguy.elasticsearch-curator
+- src: geerlingguy.firewall
+- src: geerlingguy.nginx
+- src: geerlingguy.security
+- src: jpnewman.common
+- src: jpnewman.elasticsearch
+- src: jpnewman.elk-filebeat
+- src: jpnewman.elk-kibana
+- src: jpnewman.elk-logstash-indexer
+- src: jpnewman.elk-logstash-shipper
+- src: jpnewman.elk-packetbeat
+- src: jpnewman.elk-topbeat
+- src: jpnewman.java
+- src: jpnewman.json
+- src: jpnewman.locale-timezone
+- src: jpnewman.nginx
+- src: jpnewman.redis

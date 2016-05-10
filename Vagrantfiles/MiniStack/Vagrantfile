@@ -1,0 +1,59 @@
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.ssh.insert_key = false
+
+  config.vm.box = "ubuntu/trusty64"
+
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :machine
+  end
+
+  if Vagrant.has_plugin?("vagrant-hostmanager")
+    config.hostmanager.enabled = true
+    config.hostmanager.manage_host = true
+    config.hostmanager.manage_guest = false
+  end
+
+  config.vm.synced_folder '../..', '/vagrant'
+
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 512
+    v.cpus = 4
+  end
+
+  config.vm.define "elk" do |node|
+    node.vm.hostname = "elk-server"
+    node.vm.network :private_network, ip: "10.10.10.10"
+    node.vm.provider "virtualbox" do |v|
+      v.memory = 4092
+    end
+  end
+
+  config.vm.define "log" do |node|
+    node.vm.hostname = "logstash-shipper"
+    node.vm.network :private_network, ip: "10.10.10.11"
+    node.vm.provider "virtualbox" do |v|
+      v.memory = 2048
+    end
+  end
+
+  config.vm.define "app" do |node|
+    node.vm.hostname = "test-app"
+    node.vm.network :private_network, ip: "10.10.10.12"
+    node.vm.provider "virtualbox" do |v|
+      v.cpus = 2
+    end
+
+    node.vm.provision "ansible" do |ansible|
+      ansible.playbook = "playbook.yml"
+      ansible.limit = "all"
+      ansible.groups = {
+        "elk-server" => "elk",
+        "logstash-shipper" => "log",
+        "test-app" => "app"
+      }
+      ansible.verbose = "vvv"
+    end
+  end
+end

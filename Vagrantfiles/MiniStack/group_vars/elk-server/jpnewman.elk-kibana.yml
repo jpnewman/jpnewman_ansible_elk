@@ -1,0 +1,2 @@
+---
+kibana_elasticsearch_url: "http://10.10.10.10:9200"

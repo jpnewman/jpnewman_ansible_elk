@@ -1,0 +1,53 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+    - name: Build hosts file
+      lineinfile: dest=/etc/hosts regexp='.*{{ item }}$' line="{{ hostvars[item].ansible_eth1.ipv4.address }} {{item}}" state=present
+      when: hostvars[item].ansible_eth1.ipv4.address is defined
+      with_items: groups['all']
+
+  roles:
+    - { role: jpnewman.locale-timezone, tags: ["init"] }
+    - { role: jpnewman.common, tags: ["init"] }
+    - { role: jpnewman.java, tags: ["init"] }
+
+- hosts: elk-server
+  tags: ["elk_server"]
+  become: yes
+  roles:
+    - { role: geerlingguy.security, tags: ['security'] }
+    - { role: geerlingguy.firewall, tags: ['firewall'] }
+    - { role: jpnewman.elasticsearch, tags: ["elasticsearch"] }
+    - { role: jpnewman.elk-kibana, tags: ["kibana"] }
+    - { role: jpnewman.redis, tags: ["redis"] }
+    - { role: jpnewman.elk-logstash-indexer, tags: ["logstash-indexer"] }
+    - { role: jpnewman.elk-topbeat, tags: ["topbeat"] }
+    # - { role: jpnewman.elk-packetbeat, tags: ["packetbeat"] }
+    - { role: geerlingguy.elasticsearch-curator, tags: ["elasticsearch-curator"] }
+
+- hosts: logstash-shipper
+  tags: ["logstash_shipper"]
+  become: yes
+
+  tasks:
+    - name: Install redis-tools, for testing
+      apt: name=redis-tools
+           state=installed
+           update_cache=yes
+           cache_valid_time=600
+
+  roles:
+    - { role: jpnewman.elk-logstash-shipper, tags: ["logstash-shipper"] }
+    - { role: jpnewman.elk-topbeat, tags: ["topbeat"] }
+    - { role: jpnewman.elk-packetbeat, tags: ["packetbeat"] }
+
+- hosts: test-app
+  tags: ["test_app"]
+  become: yes
+
+  roles:
+    - { role: jpnewman.elk-filebeat, tags: ["filebeat"] }
+    - { role: jpnewman.elk-topbeat, tags: ["topbeat"] }
+    - { role: jpnewman.elk-packetbeat, tags: ["packetbeat"] }

@@ -1,0 +1,4 @@
+---
+packetbeat_logstash_host: 10.10.10.11:5044
+packetbeat_elasticsearch_host: 10.10.10.10:9200
+packetbeat_redis_host: 10.10.10.10

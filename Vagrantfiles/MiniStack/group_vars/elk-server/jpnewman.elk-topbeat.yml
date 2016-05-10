@@ -1,0 +1,5 @@
+---
+topbeat_elasticsearch_host: 10.10.10.10:9200
+topbeat_redis_host: 10.10.10.10
+
+topbeat_redis_key: topbeat

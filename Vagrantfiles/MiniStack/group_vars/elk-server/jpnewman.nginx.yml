@@ -1,0 +1,35 @@
+---
+nginx_vhost_filename: kibana
+
+nginx_vhost_available_path: /etc/nginx/sites-available
+nginx_vhost_path: /etc/nginx/sites-enabled
+
+www_redirect: false
+listen_ports:
+  - 80
+
+host_aliases: []
+max_upload_size: "1024m"
+host_name: localhost
+redirect_http: false
+
+ssl_enabled: false
+ssl_listen_ports: []
+
+ssl_ca_local_path: ""
+ssl_ca_path: ""
+
+ssl_cert_local_path: ""
+ssl_cert_path: ""
+
+ssl_key_local_path: ""
+ssl_key_path: ""
+
+proxy_pass_host: localhost
+proxy_pass_port: 5601
+
+server_auth_method: ""
+
+nginx_log_dir: "/var/log/nginx"
+nginx_error_log: "{{ nginx_log_dir }}/{{ nginx_vhost_filename }}-error.log"
+nginx_access_log: "{{ nginx_log_dir }}/{{ nginx_vhost_filename}}-access.log"
