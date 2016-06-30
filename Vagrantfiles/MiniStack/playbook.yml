@@ -20,6 +20,7 @@
     - { role: geerlingguy.security, tags: ['security'] }
     - { role: geerlingguy.firewall, tags: ['firewall'] }
     - { role: jpnewman.elasticsearch, tags: ["elasticsearch"] }
+    - { role: geerlingguy.elasticsearch-curator, tags: ["elasticsearch-curator"] }
     - { role: jpnewman.elk-kibana, tags: ["kibana"] }
     - { role: jpnewman.redis, tags: ["redis"] }
     - { role: jpnewman.elk-logstash-indexer, tags: ["logstash-indexer"] }

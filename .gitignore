@@ -10,3 +10,6 @@ playbook.retry
 
 # Sublime Text Workspace
 *.sublime-workspace
+
+# Private specs
+spec/**
