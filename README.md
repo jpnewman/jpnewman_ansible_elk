@@ -1,7 +1,7 @@
 
-# ELK Stack
+# Ansible ELK Stack
 
-This repo contains a vagrant file to create a ELK Stack via the following Ansible roles: -
+This repo contains a vagrant file to create a ELK Stack via the following Ansible Galaxy roles: -
 
 - geerlingguy.elasticsearch-curator
 - geerlingguy.firewall
@@ -53,4 +53,3 @@ MIT / BSD
 ## Author Information
 
 John Paul Newman
-
