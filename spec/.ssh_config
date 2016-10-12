@@ -1,0 +1,26 @@
+Host elk-server
+  User vagrant
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host elk-log-001
+  User vagrant
+  HostName elk-log-001
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host art01
+  User vagrant
+  HostName artifactory-server
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host jenkins-server
+  User vagrant
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host gerrit-server
+  User vagrant
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes

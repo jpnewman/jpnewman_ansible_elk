@@ -41,7 +41,7 @@ ANSIBLE_HOST_KEY_CHECKING=false ansible-playbook playbook.yml -i .vagrant/provis
 |Box|Description|Vagrant Name|Ansible Host|
 |---|---|---|---|---|
 |```10.10.10.12```|Test Application|```app```|```test-app```|
-|```10.10.10.11```|Logstash Shipper|```log```|```logstash-shipper```|
+|```10.10.10.11```|Logstash Shipper|```log```|```elk-log-001```|
 |```10.10.10.10```|Logstash Indexer|```elk```|```elk-server```|
 |```10.10.10.10```|Elasticsearch|```elk```|```elk-server```|
 

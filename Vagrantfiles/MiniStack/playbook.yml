@@ -28,8 +28,8 @@
     # - { role: jpnewman.elk-packetbeat, tags: ["packetbeat"] }
     - { role: geerlingguy.elasticsearch-curator, tags: ["elasticsearch-curator"] }
 
-- hosts: logstash-shipper
-  tags: ["logstash_shipper"]
+- hosts: elk-log-001
+  tags: ["elk-log-001"]
   become: yes
 
   tasks:

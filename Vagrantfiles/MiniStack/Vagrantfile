@@ -31,7 +31,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.define "log" do |node|
-    node.vm.hostname = "logstash-shipper"
+    node.vm.hostname = "elk-log-001"
     node.vm.network :private_network, ip: "10.10.10.11"
     node.vm.provider "virtualbox" do |v|
       v.memory = 2048
@@ -50,7 +50,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.limit = "all"
       ansible.groups = {
         "elk-server" => "elk",
-        "logstash-shipper" => "log",
+        "elk-log-001" => "log",
         "test-app" => "app"
       }
       ansible.verbose = "vvv"
