@@ -7,7 +7,7 @@ echo "elk-log-001"
 testinfra -v test_elk-log.py --ssh-config=.ssh_config --sudo --hosts=elk-log-001
 
 echo "Artifactory"
-testinfra -n 2 -v test_artifactory.py --ssh-config=.ssh_config --sudo --hosts=art01,art02
+testinfra -n 2 -v test_artifactory.py --ssh-config=.ssh_config --sudo --hosts=art01
 
 echo "Jenkins"
 testinfra -v test_jenkins.py --ssh-config=.ssh_config --sudo --hosts=jenkins-server
