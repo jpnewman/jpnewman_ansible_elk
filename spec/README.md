@@ -46,3 +46,22 @@ testinfra -v test_jenkins.py --ssh-config=.ssh_config --sudo --hosts=jenkins-ser
 ~~~bash
 testinfra -v test_gerrit.py --ssh-config=.ssh_config --sudo --hosts=gerrit-server
 ~~~
+
+# HTML Output
+
+## Install dependencies
+
+> Mac OS X
+
+~~~
+brew tap homebrew/dupes/expect
+brew install homebrew/dupes/expect
+
+pip install ansi2html
+~~~
+
+## Run
+
+~~~
+unbuffer testinfra -v test_jenkins.py --ssh-config=.ssh_config --sudo --hosts=jenkins-server | tee >(ansi2html > jenkins.html)
+~~~
