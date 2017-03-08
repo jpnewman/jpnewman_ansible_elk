@@ -17,6 +17,25 @@ pip install -r requirements.txt
 ./run_all.sh
 ~~~
 
+## Run All, HTML output
+
+### Install dependencies
+
+> Mac OS X
+
+~~~
+brew tap homebrew/dupes/expect
+brew install homebrew/dupes/expect
+
+pip install ansi2html
+~~~
+
+### Run
+
+~~~
+unbuffer ./run_all.sh | tee >(ansi2html > run_all.html)
+~~~
+
 ## elk-server
 
 ~~~bash
