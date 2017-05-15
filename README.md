@@ -26,6 +26,11 @@ For more information look at the following readmes: -
 - ```./.sublime-project/README.md```
 - ```./Vagrantfiles/MiniStack/README.md```
 
+# Referneces
+
+- <https://ianunruh.com/2014/05/monitor-everything-part-3.html>
+- <https://www.amazeelabs.com/en/blog/elasticsearch-reloaded>
+
 # Install Vagrant Plugin
 
 ~~~bash

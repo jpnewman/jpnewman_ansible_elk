@@ -3,9 +3,14 @@ Host elk-server
   IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
 
-Host elk-log-001
+Host elk-log-*
   User vagrant
-  HostName elk-log-001
+  IdentityFile ~/.vagrant.d/insecure_private_key
+  IdentitiesOnly yes
+
+Host test-app
+  User vagrant
+  HostName test-app
   IdentityFile ~/.vagrant.d/insecure_private_key
   IdentitiesOnly yes
 

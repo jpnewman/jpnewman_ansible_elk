@@ -1,0 +1,240 @@
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"I12d0b28b178373dcbd12cf44ac708470fec54b5f", "is-draft"=>"False", "change-url"=>"https://gerrit.com/98316", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "author"=>"john.newman", "commit"=>"9a6b6d5c03d6ffeefbf07b3799391783a93f9a6e", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>I12d0b28b178373dcbd12cf44ac708470fec54b5f</ChangeId>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:33:56 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"I4a0aa4d8b83dc834b3621d1ae3def066a0c6fc12", "is-draft"=>"False", "change-url"=>"https://gerrit.com/55008", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "author"=>"adam.admin", "commit"=>"f832d431b81404878cc234ce6da22d12de10e1c2", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>I4a0aa4d8b83dc834b3621d1ae3def066a0c6fc12</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:33:56 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"Ic5b0adf67892665bca0ed3fdf1e2f47a43a76bca", "is-draft"=>"False", "change-url"=>"https://gerrit.com/78882", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/common", "branch"=>"master", "author"=>"tim.tester", "commit"=>"c03f7d9b0f3e5beb27c1e5a0c51d3ff57ed22e34", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>Ic5b0adf67892665bca0ed3fdf1e2f47a43a76bca</ChangeId>
+  <Repo>ansible/common</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:33:56 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"Iaf23509da441e7b3bc9affd662df02b8add42e11", "is-draft"=>"False", "change-url"=>"https://gerrit.com/94203", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "author"=>"edward.editor", "commit"=>"44c99c836ced2b2c2e6451b093df73343a7766ee", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>Iaf23509da441e7b3bc9affd662df02b8add42e11</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:33:56 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"I2ed71b58ae4fc690152f54dcea5b06e4f94c89bb", "is-draft"=>"False", "change-url"=>"https://gerrit.com/20599", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "author"=>"adam.admin", "commit"=>"85fcef64183e4ac2b48861efe5888dd5e6390002", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>I2ed71b58ae4fc690152f54dcea5b06e4f94c89bb</ChangeId>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:33:56 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"I8f04f51d5a051541c524d5ec7e516ce6cef4295d", "is-draft"=>"False", "change-url"=>"https://gerrit.com/78462", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/logstash-indexer", "branch"=>"master", "author"=>"tim.tester", "commit"=>"e625102ae5d34ea6f451c5f7418e5c73aed5c6b3", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I8f04f51d5a051541c524d5ec7e516ce6cef4295d</ChangeId>
+  <Repo>ansible/logstash-indexer</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:36:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"I2ab68c7d4d8fe695f029e2d3fe706b60e14ec7c3", "is-draft"=>"False", "change-url"=>"https://gerrit.com/14546", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/common", "branch"=>"dev", "author"=>"edward.editor", "commit"=>"9e26ecc437f38b5826ca573b9b4e613ee31c6560", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I2ab68c7d4d8fe695f029e2d3fe706b60e14ec7c3</ChangeId>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:36:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"Ia28ea09c9bc340eb76a9b51472d8ddefea61bf71", "is-draft"=>"False", "change-url"=>"https://gerrit.com/26604", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "author"=>"adam.admin", "commit"=>"5d9581cd8f4afbb10d8fb98c4b47b1a2fc89cbc4", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>Ia28ea09c9bc340eb76a9b51472d8ddefea61bf71</ChangeId>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:36:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"I18ab1b21b42d64e8fec460bcd0ce0a21991156b7", "is-draft"=>"False", "change-url"=>"https://gerrit.com/87406", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "author"=>"edward.editor", "commit"=>"1cdc6934c61abbe2f365c8a1d31f6cc9af93dda1", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I18ab1b21b42d64e8fec460bcd0ce0a21991156b7</ChangeId>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:36:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"I38ec03391a6b4652fa9f61d8f5ae218055ed7240", "is-draft"=>"False", "change-url"=>"https://gerrit.com/33472", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"vagrant/elk", "branch"=>"master", "author"=>"john.newman", "commit"=>"4058e34123aa27eb2c8229749ad17ad6796d24fa", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I38ec03391a6b4652fa9f61d8f5ae218055ed7240</ChangeId>
+  <Repo>vagrant/elk</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:36:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"I13b8e224f8592befcde17e796158ecd72d7e90e3", "is-draft"=>"False", "change-url"=>"https://gerrit.com/81078", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"dev", "author"=>"edward.editor", "commit"=>"b42cfaf5a56db9b0c57d70fcc28c1ac8928e99e2", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>I13b8e224f8592befcde17e796158ecd72d7e90e3</ChangeId>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:57:21 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"I0505b35e202537c4ef100832f87a6e95482efed9", "is-draft"=>"False", "change-url"=>"https://gerrit.com/62641", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "author"=>"frank.fixer", "commit"=>"416cc8a8e727e4c9b2866dcb7b1c8d103930f63d", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>I0505b35e202537c4ef100832f87a6e95482efed9</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:57:21 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"I42d62853498d66d7a8d8db8253bc868292b9db14", "is-draft"=>"False", "change-url"=>"https://gerrit.com/20034", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"python/ocr_api", "branch"=>"master", "author"=>"charlie.ci", "commit"=>"86ac58737674d8ccae754aaef52b44764a1b5734", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>I42d62853498d66d7a8d8db8253bc868292b9db14</ChangeId>
+  <Repo>python/ocr_api</Repo>
+  <Branch>master</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:57:21 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"I05ec56c00b7a6c53e1e6650aa8fa96aebd3c9ff1", "is-draft"=>"False", "change-url"=>"https://gerrit.com/62569", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/openldap-serveransible/kibana", "branch"=>"dev", "author"=>"bob.builder", "commit"=>"aadd2a138394e3b961f87b44fecb945527d61b9b", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>I05ec56c00b7a6c53e1e6650aa8fa96aebd3c9ff1</ChangeId>
+  <Repo>ansible/openldap-serveransible/kibana</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:57:21 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"I752b7450b80f9a5368b05a8601faeb1617b46969", "is-draft"=>"False", "change-url"=>"https://gerrit.com/50689", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/filebeat", "branch"=>"dev", "author"=>"bob.builder", "commit"=>"4583984f3c67f2180d230dd236f60461dc022efd", "comment"=>"Patch Set 1: Code-Review+1 Verified+1", "code-review"=>"1", "verified"=>"1"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>I752b7450b80f9a5368b05a8601faeb1617b46969</ChangeId>
+  <Repo>ansible/filebeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>comment</EventType>
+  <Patchset>2</Patchset>
+  <EventData>Code-Review+1</EventData>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : getaddrinfo: Name or service not known
+2017-04-25 16:57:21 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector

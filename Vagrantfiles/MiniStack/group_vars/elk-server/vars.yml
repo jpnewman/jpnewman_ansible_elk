@@ -5,6 +5,6 @@ logstash_redis_key: logstash
 
 ssl_cert_local_directory: ../../files/certs
 ssl_cert: notsecure.crt
-ssl_key: notsecure.key
+ssl_key: notsecure.pk8
 
 certificate_authorities: '["/etc/pki/tls/certs/notsecure.crt"]'

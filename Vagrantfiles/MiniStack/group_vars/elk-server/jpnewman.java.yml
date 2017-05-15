@@ -1,0 +1,3 @@
+---
+java_security_policies:
+  - permission javax.management.MBeanTrustPermission "register";

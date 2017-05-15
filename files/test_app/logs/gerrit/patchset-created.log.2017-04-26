@@ -1,0 +1,2100 @@
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"I04506644d01d8c7bae16e21eafdb5d12c4d15c11", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/66226", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/common", "branch"=>"dev", "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"c76560206c23373f60477ce3bcb854fdd7f7d52b", "patchset"=>"1"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>I04506644d01d8c7bae16e21eafdb5d12c4d15c11</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"ansible%2Fcommon~dev~I04506644d01d8c7bae16e21eafdb5d12c4d15c11", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/66226", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/common", "branch"=>"dev", "topic"=>nil, "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"c76560206c23373f60477ce3bcb854fdd7f7d52b", "patchset"=>"2"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~dev~I04506644d01d8c7bae16e21eafdb5d12c4d15c11</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"I33cf5d71bde7a8153a1df67997f4ce3e80c50737", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/79680", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"c9bb824b28da516f80836694b0dac5a71967e9a2", "patchset"=>"1"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>I33cf5d71bde7a8153a1df67997f4ce3e80c50737</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~master~I33cf5d71bde7a8153a1df67997f4ce3e80c50737", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/79680", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"c9bb824b28da516f80836694b0dac5a71967e9a2", "patchset"=>"2"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~master~I33cf5d71bde7a8153a1df67997f4ce3e80c50737</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"Iec402ee6dece032ba797b9ec5992b4e1a8322748", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/93658", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"e836ff466d50300298f6ac815523a28d803e711c", "patchset"=>"1"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>Iec402ee6dece032ba797b9ec5992b4e1a8322748</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"ansible%2Fapache~dev~Iec402ee6dece032ba797b9ec5992b4e1a8322748", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/93658", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"e836ff466d50300298f6ac815523a28d803e711c", "patchset"=>"2"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~dev~Iec402ee6dece032ba797b9ec5992b4e1a8322748</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"I41945594e9a71362b11182ff707ce2c8876a25b9", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/89710", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"a0da0c84433afd4d98d860f8ae154d9f2052dc95", "patchset"=>"1"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>I41945594e9a71362b11182ff707ce2c8876a25b9</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"scripts%2Fdownload_smugmug_galleries~master~I41945594e9a71362b11182ff707ce2c8876a25b9", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/89710", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "topic"=>nil, "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"a0da0c84433afd4d98d860f8ae154d9f2052dc95", "patchset"=>"2"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fdownload_smugmug_galleries~master~I41945594e9a71362b11182ff707ce2c8876a25b9</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"I03419c5472499692b76ead0a367720ad1998e5f1", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/52246", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/java", "branch"=>"master", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"72f014a7164134ea5cf99d8f0c53347c059a4e73", "patchset"=>"1"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>I03419c5472499692b76ead0a367720ad1998e5f1</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:23:37 +0000 : 
+{"change"=>"ansible%2Fjava~master~I03419c5472499692b76ead0a367720ad1998e5f1", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/52246", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/java", "branch"=>"master", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"72f014a7164134ea5cf99d8f0c53347c059a4e73", "patchset"=>"2"}
+2017-04-26 17:23:37 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fjava~master~I03419c5472499692b76ead0a367720ad1998e5f1</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:23:37</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:23:37 +0000 : OK
+2017-04-26 17:23:37 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:23:37 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"I50839b694a07f478748c035c2579bd3be4078343", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/67007", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/filebeat", "branch"=>"dev", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"d02f774ce6fbb28502d9d5bda6ab025500b8df38", "patchset"=>"1"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I50839b694a07f478748c035c2579bd3be4078343</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/filebeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"ansible%2Ffilebeat~dev~I50839b694a07f478748c035c2579bd3be4078343", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/67007", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/filebeat", "branch"=>"dev", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"d02f774ce6fbb28502d9d5bda6ab025500b8df38", "patchset"=>"2"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Ffilebeat~dev~I50839b694a07f478748c035c2579bd3be4078343</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/filebeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"Icafc5bb00561756bd3ff22cb8cf50f27e6e69fc6", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/47697", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/common", "branch"=>"dev", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"4371c4da145fab1753f0ffbc70ba274249629d27", "patchset"=>"1"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>Icafc5bb00561756bd3ff22cb8cf50f27e6e69fc6</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"ansible%2Fcommon~dev~Icafc5bb00561756bd3ff22cb8cf50f27e6e69fc6", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/47697", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/common", "branch"=>"dev", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"4371c4da145fab1753f0ffbc70ba274249629d27", "patchset"=>"2"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~dev~Icafc5bb00561756bd3ff22cb8cf50f27e6e69fc6</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"Id9180c21014593f93765f07c21007bdcaf984f76", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/76158", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/common", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"c959aaf1204c93bda0777d21d5c3938033d0c38b", "patchset"=>"1"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>Id9180c21014593f93765f07c21007bdcaf984f76</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"ansible%2Fcommon~dev~Id9180c21014593f93765f07c21007bdcaf984f76", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/76158", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/common", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"c959aaf1204c93bda0777d21d5c3938033d0c38b", "patchset"=>"2"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~dev~Id9180c21014593f93765f07c21007bdcaf984f76</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"I3337e588b3e4e075e73c93063c8e206c50c947e9", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/50126", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"fac49c12535690b0ca04aea85c230c796e7f9919", "patchset"=>"1"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>I3337e588b3e4e075e73c93063c8e206c50c947e9</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"ansible%2Fapache~dev~I3337e588b3e4e075e73c93063c8e206c50c947e9", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/50126", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"fac49c12535690b0ca04aea85c230c796e7f9919", "patchset"=>"2"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~dev~I3337e588b3e4e075e73c93063c8e206c50c947e9</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"Iedc61e3d0145da3e7740576fef6a8db82dd2de1f", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/24756", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"3a7ccad66f29b72feda709c4d200381feb8bb247", "patchset"=>"1"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>Iedc61e3d0145da3e7740576fef6a8db82dd2de1f</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:17 +0000 : 
+{"change"=>"scm%2Fdownload_repos~dev~Iedc61e3d0145da3e7740576fef6a8db82dd2de1f", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/24756", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"3a7ccad66f29b72feda709c4d200381feb8bb247", "patchset"=>"2"}
+2017-04-26 17:24:17 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~dev~Iedc61e3d0145da3e7740576fef6a8db82dd2de1f</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:17</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:24:17 +0000 : OK
+2017-04-26 17:24:17 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:17 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"I3e038d87cb8bbadff399ab798944aedb103e6ff7", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/61516", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"eb6ee5a89a2319c8f240715d449529ff9eb5f383", "patchset"=>"1"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I3e038d87cb8bbadff399ab798944aedb103e6ff7</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"ansible%2Fnginx~master~I3e038d87cb8bbadff399ab798944aedb103e6ff7", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/61516", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"eb6ee5a89a2319c8f240715d449529ff9eb5f383", "patchset"=>"2"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fnginx~master~I3e038d87cb8bbadff399ab798944aedb103e6ff7</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"I5bac229280c0dacb3190ad892b0d9359f95f576b", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/63844", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"e20bc16ab5f0498fd29cb611e6c1f9ba9a329a4a", "patchset"=>"1"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I5bac229280c0dacb3190ad892b0d9359f95f576b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~dev~I5bac229280c0dacb3190ad892b0d9359f95f576b", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/63844", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"e20bc16ab5f0498fd29cb611e6c1f9ba9a329a4a", "patchset"=>"2"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~dev~I5bac229280c0dacb3190ad892b0d9359f95f576b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"Ie1873e79069db108effe124dfe7d3bf8ea8a024b", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/26896", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/packetbeat", "branch"=>"dev", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"d1209d91b0bace58b44d3f4393fd860fbd0c76da", "patchset"=>"1"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>Ie1873e79069db108effe124dfe7d3bf8ea8a024b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"ansible%2Fpacketbeat~dev~Ie1873e79069db108effe124dfe7d3bf8ea8a024b", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/26896", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/packetbeat", "branch"=>"dev", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"d1209d91b0bace58b44d3f4393fd860fbd0c76da", "patchset"=>"2"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fpacketbeat~dev~Ie1873e79069db108effe124dfe7d3bf8ea8a024b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"Ia61a53f5da1b32ea1752481eb1923d75543e4e96", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/32245", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/topbeat", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"befa96b7f0ddaa5b803d4a0dfd151e30280ee3f0", "patchset"=>"1"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>Ia61a53f5da1b32ea1752481eb1923d75543e4e96</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/topbeat</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"ansible%2Ftopbeat~master~Ia61a53f5da1b32ea1752481eb1923d75543e4e96", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/32245", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/topbeat", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"befa96b7f0ddaa5b803d4a0dfd151e30280ee3f0", "patchset"=>"2"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Ftopbeat~master~Ia61a53f5da1b32ea1752481eb1923d75543e4e96</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/topbeat</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"Ibe3546ad0936a2484bfa5b955f094bc55f13d595", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/32256", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"beec0593a785a0b0fb67d1c541881afa7605fe1d", "patchset"=>"1"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>Ibe3546ad0936a2484bfa5b955f094bc55f13d595</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:24:57 +0000 : 
+{"change"=>"scm%2Fdownload_repos~master~Ibe3546ad0936a2484bfa5b955f094bc55f13d595", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/32256", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"beec0593a785a0b0fb67d1c541881afa7605fe1d", "patchset"=>"2"}
+2017-04-26 17:24:57 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~master~Ibe3546ad0936a2484bfa5b955f094bc55f13d595</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:24:57</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:24:57 +0000 : OK
+2017-04-26 17:24:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:24:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"I94db5ab833fb4cf46a371d29b9eeb439851bd8e2", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/24779", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"sites/my-jekyll-website", "branch"=>"master", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"3bb7c880990befe39c23122d304605f7adc64aa2", "patchset"=>"1"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>I94db5ab833fb4cf46a371d29b9eeb439851bd8e2</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>sites/my-jekyll-website</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"sites%2Fmy-jekyll-website~master~I94db5ab833fb4cf46a371d29b9eeb439851bd8e2", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/24779", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"sites/my-jekyll-website", "branch"=>"master", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"3bb7c880990befe39c23122d304605f7adc64aa2", "patchset"=>"2"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>sites%2Fmy-jekyll-website~master~I94db5ab833fb4cf46a371d29b9eeb439851bd8e2</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>sites/my-jekyll-website</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"Ia6a514bd126f196029a27420b094a5915747e83f", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/20667", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"dev", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"8c7495fae21cc2a75c186e697cdf3129f00f6b13", "patchset"=>"1"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>Ia6a514bd126f196029a27420b094a5915747e83f</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"scripts%2Fdownload_smugmug_galleries~dev~Ia6a514bd126f196029a27420b094a5915747e83f", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/20667", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"dev", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"8c7495fae21cc2a75c186e697cdf3129f00f6b13", "patchset"=>"2"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fdownload_smugmug_galleries~dev~Ia6a514bd126f196029a27420b094a5915747e83f</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"I1324b8600c0f9828d8f4524c6b1d2b77b531abaf", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/46495", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"scripts/elasticsearch", "branch"=>"master", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"667fcacffe9f819486d1023aa2e082ecedf97e1a", "patchset"=>"1"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>I1324b8600c0f9828d8f4524c6b1d2b77b531abaf</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"scripts%2Felasticsearch~master~I1324b8600c0f9828d8f4524c6b1d2b77b531abaf", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/46495", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"scripts/elasticsearch", "branch"=>"master", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"667fcacffe9f819486d1023aa2e082ecedf97e1a", "patchset"=>"2"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Felasticsearch~master~I1324b8600c0f9828d8f4524c6b1d2b77b531abaf</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"Ic034898ab366a99c3451c8290d088b7a85e70f40", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/55782", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/redis", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"71ce7681a99a1dd4242728821400c9ca70e1c624", "patchset"=>"1"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>Ic034898ab366a99c3451c8290d088b7a85e70f40</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/redis</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"ansible%2Fredis~dev~Ic034898ab366a99c3451c8290d088b7a85e70f40", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/55782", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/redis", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"71ce7681a99a1dd4242728821400c9ca70e1c624", "patchset"=>"2"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fredis~dev~Ic034898ab366a99c3451c8290d088b7a85e70f40</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/redis</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"I9b18cc8b96d73f794b8faf4e4f88819263c8b3da", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/76531", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/common", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"96ae74f983c98de12c38272e7030278017751265", "patchset"=>"1"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>I9b18cc8b96d73f794b8faf4e4f88819263c8b3da</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:14 +0000 : 
+{"change"=>"ansible%2Fcommon~dev~I9b18cc8b96d73f794b8faf4e4f88819263c8b3da", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/76531", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/common", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"96ae74f983c98de12c38272e7030278017751265", "patchset"=>"2"}
+2017-04-26 17:25:14 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~dev~I9b18cc8b96d73f794b8faf4e4f88819263c8b3da</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:14</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:25:14 +0000 : OK
+2017-04-26 17:25:14 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:14 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"I7b05f54971f4c2c4651d4202a8d024631e68e07c", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/43925", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/java", "branch"=>"dev", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"958d0df953e46dd4ad7710f9d5abfa32c0a5053d", "patchset"=>"1"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I7b05f54971f4c2c4651d4202a8d024631e68e07c</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"ansible%2Fjava~dev~I7b05f54971f4c2c4651d4202a8d024631e68e07c", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/43925", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/java", "branch"=>"dev", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"958d0df953e46dd4ad7710f9d5abfa32c0a5053d", "patchset"=>"2"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fjava~dev~I7b05f54971f4c2c4651d4202a8d024631e68e07c</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"I885b8d907f718512601f8edc1b471b5b976ddf97", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/34918", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"58ed280954fdaafe9c4c9555be3560671073f130", "patchset"=>"1"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I885b8d907f718512601f8edc1b471b5b976ddf97</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"python%2Focr_api~dev~I885b8d907f718512601f8edc1b471b5b976ddf97", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/34918", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"58ed280954fdaafe9c4c9555be3560671073f130", "patchset"=>"2"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Focr_api~dev~I885b8d907f718512601f8edc1b471b5b976ddf97</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"I3e279bb91ee81cd21d0ad26e536d36cc7f2c0b4e", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/67314", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"c5c859de2e35dbe20355d9157ee385b9af2e3ad3", "patchset"=>"1"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I3e279bb91ee81cd21d0ad26e536d36cc7f2c0b4e</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~dev~I3e279bb91ee81cd21d0ad26e536d36cc7f2c0b4e", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/67314", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"c5c859de2e35dbe20355d9157ee385b9af2e3ad3", "patchset"=>"2"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~dev~I3e279bb91ee81cd21d0ad26e536d36cc7f2c0b4e</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"I340f0451159ade7e43fec39a4772bec0c137792e", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/89680", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/packetbeat", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"31568fb714ae6a07ed1c7759da0064caa2facfad", "patchset"=>"1"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I340f0451159ade7e43fec39a4772bec0c137792e</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"ansible%2Fpacketbeat~master~I340f0451159ade7e43fec39a4772bec0c137792e", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/89680", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/packetbeat", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"31568fb714ae6a07ed1c7759da0064caa2facfad", "patchset"=>"2"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fpacketbeat~master~I340f0451159ade7e43fec39a4772bec0c137792e</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"I940d508e85a480ee533a5d3cb73fb8b24da4683c", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/79324", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"scripts/jenkins", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"49ae4a10cc9b3b66e7f55e0cab41f1985999f7f3", "patchset"=>"1"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>I940d508e85a480ee533a5d3cb73fb8b24da4683c</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:25:57 +0000 : 
+{"change"=>"scripts%2Fjenkins~master~I940d508e85a480ee533a5d3cb73fb8b24da4683c", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/79324", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"scripts/jenkins", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"49ae4a10cc9b3b66e7f55e0cab41f1985999f7f3", "patchset"=>"2"}
+2017-04-26 17:25:57 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fjenkins~master~I940d508e85a480ee533a5d3cb73fb8b24da4683c</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:25:57</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:25:57 +0000 : OK
+2017-04-26 17:25:57 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:25:57 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"I9821b35bc07d9c6aaca504fbb4194fdb162ca109", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/18652", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"vagrant/gerrit", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"41bd6f0c5f98ca5f9054b38a41f9b79a428ead18", "patchset"=>"1"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>I9821b35bc07d9c6aaca504fbb4194fdb162ca109</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"vagrant%2Fgerrit~dev~I9821b35bc07d9c6aaca504fbb4194fdb162ca109", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/18652", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"vagrant/gerrit", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"41bd6f0c5f98ca5f9054b38a41f9b79a428ead18", "patchset"=>"2"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Fgerrit~dev~I9821b35bc07d9c6aaca504fbb4194fdb162ca109</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"I927be7d6854ddb19fe31ae235c82bb0e75555a6b", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/46693", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/redis", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"babae167828ba482a60050c46c1857e384eca893", "patchset"=>"1"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>I927be7d6854ddb19fe31ae235c82bb0e75555a6b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/redis</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"ansible%2Fredis~dev~I927be7d6854ddb19fe31ae235c82bb0e75555a6b", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/46693", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/redis", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"babae167828ba482a60050c46c1857e384eca893", "patchset"=>"2"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fredis~dev~I927be7d6854ddb19fe31ae235c82bb0e75555a6b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/redis</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"I66d5fecbb269ade7b469f6b454a0475ce5e4d1bb", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/62108", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"5931409584890d966fc0d507962be51f47d46b61", "patchset"=>"1"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>I66d5fecbb269ade7b469f6b454a0475ce5e4d1bb</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"python%2Focr_api~dev~I66d5fecbb269ade7b469f6b454a0475ce5e4d1bb", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/62108", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"5931409584890d966fc0d507962be51f47d46b61", "patchset"=>"2"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Focr_api~dev~I66d5fecbb269ade7b469f6b454a0475ce5e4d1bb</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"I27aa03867ddf9e2bb638da185dfc7e40b32ed18e", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/13195", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/gerrit", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"71fd40a37114133ed73e3f11a7790342ac6f72f9", "patchset"=>"1"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>I27aa03867ddf9e2bb638da185dfc7e40b32ed18e</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"ansible%2Fgerrit~master~I27aa03867ddf9e2bb638da185dfc7e40b32ed18e", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/13195", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/gerrit", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"71fd40a37114133ed73e3f11a7790342ac6f72f9", "patchset"=>"2"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fgerrit~master~I27aa03867ddf9e2bb638da185dfc7e40b32ed18e</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"Ica2d60ffe10cbc412b1af933bac38b4e43112d31", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/15690", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"aeefc239206cea5ffa4c7e96b0eee3db12366cdc", "patchset"=>"1"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>Ica2d60ffe10cbc412b1af933bac38b4e43112d31</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 17:26:00 +0000 : 
+{"change"=>"ansible%2Fgerrit~dev~Ica2d60ffe10cbc412b1af933bac38b4e43112d31", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/15690", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"aeefc239206cea5ffa4c7e96b0eee3db12366cdc", "patchset"=>"2"}
+2017-04-26 17:26:00 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fgerrit~dev~Ica2d60ffe10cbc412b1af933bac38b4e43112d31</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T16:26:00</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 17:26:00 +0000 : OK
+2017-04-26 17:26:00 +0000 : getaddrinfo: Name or service not known
+2017-04-26 17:26:00 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"If522da84545e37ba7251581ac2f37c55ec21817b", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/67847", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"a7462df13c4fad7ed7a236f35b88280f3d547a30", "patchset"=>"1"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>If522da84545e37ba7251581ac2f37c55ec21817b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"gerrit%2Fbackup_tool~master~If522da84545e37ba7251581ac2f37c55ec21817b", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/67847", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"a7462df13c4fad7ed7a236f35b88280f3d547a30", "patchset"=>"2"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>gerrit%2Fbackup_tool~master~If522da84545e37ba7251581ac2f37c55ec21817b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"I50ad3859a5e829c7cbfcb508361789a5fdefeb2e", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/97318", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"6e2e6fcb7bebc5c182d80835fd05a0a1e70e9b48", "patchset"=>"1"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I50ad3859a5e829c7cbfcb508361789a5fdefeb2e</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~master~I50ad3859a5e829c7cbfcb508361789a5fdefeb2e", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/97318", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"6e2e6fcb7bebc5c182d80835fd05a0a1e70e9b48", "patchset"=>"2"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~master~I50ad3859a5e829c7cbfcb508361789a5fdefeb2e</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"Iaca224fd7e7e4e4ad29c32e747541f895c5a7b74", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/11759", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"sites/my-jekyll-website", "branch"=>"master", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"f75e5405947523f3109c58fcfa4b759788245718", "patchset"=>"1"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>Iaca224fd7e7e4e4ad29c32e747541f895c5a7b74</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>sites/my-jekyll-website</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"sites%2Fmy-jekyll-website~master~Iaca224fd7e7e4e4ad29c32e747541f895c5a7b74", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/11759", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"sites/my-jekyll-website", "branch"=>"master", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"f75e5405947523f3109c58fcfa4b759788245718", "patchset"=>"2"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>sites%2Fmy-jekyll-website~master~Iaca224fd7e7e4e4ad29c32e747541f895c5a7b74</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>sites/my-jekyll-website</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"Ie79f2477f2193c24e63ade416277566b9a8b2eac", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/22279", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/papers", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"a7c516e3476cee84eb19d98cf683cabacc2bf88b", "patchset"=>"1"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>Ie79f2477f2193c24e63ade416277566b9a8b2eac</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/papers</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"python%2Fpapers~master~Ie79f2477f2193c24e63ade416277566b9a8b2eac", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/22279", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/papers", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"a7c516e3476cee84eb19d98cf683cabacc2bf88b", "patchset"=>"2"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Fpapers~master~Ie79f2477f2193c24e63ade416277566b9a8b2eac</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/papers</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"I1b70c270024daf71de1dc5f05678305da58f1f42", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/51488", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/apache", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"01442216412ae70ad4e0961c4a5885ff5f206f79", "patchset"=>"1"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I1b70c270024daf71de1dc5f05678305da58f1f42</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:44 +0000 : 
+{"change"=>"ansible%2Fapache~master~I1b70c270024daf71de1dc5f05678305da58f1f42", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/51488", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/apache", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"01442216412ae70ad4e0961c4a5885ff5f206f79", "patchset"=>"2"}
+2017-04-26 18:02:44 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~master~I1b70c270024daf71de1dc5f05678305da58f1f42</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:44</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:02:44 +0000 : OK
+2017-04-26 18:02:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"I6544b0068e656065f79cc12aaf893ddd469d68ec", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/51267", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/rental_market", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"f8e58ecb5b4f629f8aebb2de941abf02611e975d", "patchset"=>"1"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>I6544b0068e656065f79cc12aaf893ddd469d68ec</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/rental_market</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"python%2Frental_market~master~I6544b0068e656065f79cc12aaf893ddd469d68ec", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/51267", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/rental_market", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"f8e58ecb5b4f629f8aebb2de941abf02611e975d", "patchset"=>"2"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Frental_market~master~I6544b0068e656065f79cc12aaf893ddd469d68ec</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/rental_market</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"I962b863e86ca4bf604afb85486f48d22fccc0e7a", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/50440", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"dev", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"17a9b4facb234cc53a6ee04f8d9ae3810a05fc14", "patchset"=>"1"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>I962b863e86ca4bf604afb85486f48d22fccc0e7a</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"gerrit%2Fbackup_tool~dev~I962b863e86ca4bf604afb85486f48d22fccc0e7a", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/50440", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"dev", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"17a9b4facb234cc53a6ee04f8d9ae3810a05fc14", "patchset"=>"2"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>gerrit%2Fbackup_tool~dev~I962b863e86ca4bf604afb85486f48d22fccc0e7a</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"I0e10af917ea4ac8b6d4a391139c0c5b8ba6516ec", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/41627", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"25068e611608ae0a2e22bbe011a6673cb898fe87", "patchset"=>"1"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>I0e10af917ea4ac8b6d4a391139c0c5b8ba6516ec</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~dev~I0e10af917ea4ac8b6d4a391139c0c5b8ba6516ec", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/41627", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "topic"=>nil, "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"25068e611608ae0a2e22bbe011a6673cb898fe87", "patchset"=>"2"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~dev~I0e10af917ea4ac8b6d4a391139c0c5b8ba6516ec</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"I4f49a7e6e5f15c06d2e621c58b67349de5ddb3cd", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/44250", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scripts/zabbix", "branch"=>"dev", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"62cd706662685a70a81dcf6c12ae5227314aa4f0", "patchset"=>"1"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>I4f49a7e6e5f15c06d2e621c58b67349de5ddb3cd</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/zabbix</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"scripts%2Fzabbix~dev~I4f49a7e6e5f15c06d2e621c58b67349de5ddb3cd", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/44250", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scripts/zabbix", "branch"=>"dev", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"62cd706662685a70a81dcf6c12ae5227314aa4f0", "patchset"=>"2"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fzabbix~dev~I4f49a7e6e5f15c06d2e621c58b67349de5ddb3cd</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/zabbix</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"I1a99a790a905666ed7dc93f6b8958b2ed185f077", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/12816", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"7653f3bebd8a1cafde3b98e2cc25319e1774ef02", "patchset"=>"1"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>I1a99a790a905666ed7dc93f6b8958b2ed185f077</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:02:46 +0000 : 
+{"change"=>"scripts%2Fdownload_smugmug_galleries~master~I1a99a790a905666ed7dc93f6b8958b2ed185f077", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/12816", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"7653f3bebd8a1cafde3b98e2cc25319e1774ef02", "patchset"=>"2"}
+2017-04-26 18:02:46 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fdownload_smugmug_galleries~master~I1a99a790a905666ed7dc93f6b8958b2ed185f077</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:02:46</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:02:46 +0000 : OK
+2017-04-26 18:02:46 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:02:46 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"I6bf41f856e1057afdfcf2b5a1bcb8f844cfe18e5", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/82627", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"scripts/zabbix", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"8365bb70b31f653912eb225f1e4ad17ea01a86c4", "patchset"=>"1"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I6bf41f856e1057afdfcf2b5a1bcb8f844cfe18e5</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/zabbix</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"scripts%2Fzabbix~dev~I6bf41f856e1057afdfcf2b5a1bcb8f844cfe18e5", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/82627", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"scripts/zabbix", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"8365bb70b31f653912eb225f1e4ad17ea01a86c4", "patchset"=>"2"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fzabbix~dev~I6bf41f856e1057afdfcf2b5a1bcb8f844cfe18e5</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/zabbix</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"I3e63174a623e516d88aced8cb899a5199bedb50b", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/93714", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/openldap-serveransible/kibana", "branch"=>"master", "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"c6c385feee44e993eb75f727f1d0424fe0865f39", "patchset"=>"1"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I3e63174a623e516d88aced8cb899a5199bedb50b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/openldap-serveransible/kibana</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"ansible%2Fopenldap-serveransible%2Fkibana~master~I3e63174a623e516d88aced8cb899a5199bedb50b", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/93714", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/openldap-serveransible/kibana", "branch"=>"master", "topic"=>nil, "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"c6c385feee44e993eb75f727f1d0424fe0865f39", "patchset"=>"2"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fopenldap-serveransible%2Fkibana~master~I3e63174a623e516d88aced8cb899a5199bedb50b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/openldap-serveransible/kibana</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"I0ffe1f7db89a4aba0b66217b9166ba8ed3df0c4b", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/40418", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/jenkins", "branch"=>"master", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"c0200006c9e4760476423d4af642f830fbce95f0", "patchset"=>"1"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I0ffe1f7db89a4aba0b66217b9166ba8ed3df0c4b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"scripts%2Fjenkins~master~I0ffe1f7db89a4aba0b66217b9166ba8ed3df0c4b", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/40418", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/jenkins", "branch"=>"master", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"c0200006c9e4760476423d4af642f830fbce95f0", "patchset"=>"2"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fjenkins~master~I0ffe1f7db89a4aba0b66217b9166ba8ed3df0c4b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"I373ff939f0b09b925f506c9f20aa80c26a6dbf62", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/62452", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/jenkins", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"4e7c1212d3ea63ef48a1caeafa4ba527d77fb115", "patchset"=>"1"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I373ff939f0b09b925f506c9f20aa80c26a6dbf62</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"scripts%2Fjenkins~dev~I373ff939f0b09b925f506c9f20aa80c26a6dbf62", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/62452", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/jenkins", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"4e7c1212d3ea63ef48a1caeafa4ba527d77fb115", "patchset"=>"2"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fjenkins~dev~I373ff939f0b09b925f506c9f20aa80c26a6dbf62</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/jenkins</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"If93e0be5bf703a4fda3a1bb7dd6c93d3a9863369", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/76577", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"4ccf495f6f66e0f661a2a1f5a5d1345d2d314f43", "patchset"=>"1"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>If93e0be5bf703a4fda3a1bb7dd6c93d3a9863369</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:04:13 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~master~If93e0be5bf703a4fda3a1bb7dd6c93d3a9863369", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/76577", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"4ccf495f6f66e0f661a2a1f5a5d1345d2d314f43", "patchset"=>"2"}
+2017-04-26 18:04:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~master~If93e0be5bf703a4fda3a1bb7dd6c93d3a9863369</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:04:13</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:04:13 +0000 : OK
+2017-04-26 18:04:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:04:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"I7e9dba9504b4ce1038258328c4bef4c24dd903d7", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/49343", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"60a08d4478f6ed11fa6c4130440c57ea8cab6e17", "patchset"=>"1"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>I7e9dba9504b4ce1038258328c4bef4c24dd903d7</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"ansible%2Flogstash-shipper~dev~I7e9dba9504b4ce1038258328c4bef4c24dd903d7", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/49343", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/logstash-shipper", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"60a08d4478f6ed11fa6c4130440c57ea8cab6e17", "patchset"=>"2"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-shipper~dev~I7e9dba9504b4ce1038258328c4bef4c24dd903d7</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/logstash-shipper</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"Ic17ffa2dbef7fc458c477e93d46415f7dec94970", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/53778", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"scripts/elasticsearch", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"5883942ff9f47f2996e95a35c10f44d4f9e8b75f", "patchset"=>"1"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>Ic17ffa2dbef7fc458c477e93d46415f7dec94970</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"scripts%2Felasticsearch~master~Ic17ffa2dbef7fc458c477e93d46415f7dec94970", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/53778", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"scripts/elasticsearch", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"5883942ff9f47f2996e95a35c10f44d4f9e8b75f", "patchset"=>"2"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Felasticsearch~master~Ic17ffa2dbef7fc458c477e93d46415f7dec94970</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"I4a99d46f64ead905e4ef50b2914ab547883b30f8", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/18546", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"vagrant/artifactory", "branch"=>"dev", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"1ac2d5b948a19643430c5d0081be9c9b7380ff14", "patchset"=>"1"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>I4a99d46f64ead905e4ef50b2914ab547883b30f8</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>vagrant/artifactory</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"vagrant%2Fartifactory~dev~I4a99d46f64ead905e4ef50b2914ab547883b30f8", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/18546", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"vagrant/artifactory", "branch"=>"dev", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"1ac2d5b948a19643430c5d0081be9c9b7380ff14", "patchset"=>"2"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Fartifactory~dev~I4a99d46f64ead905e4ef50b2914ab547883b30f8</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>vagrant/artifactory</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"I4768884909e0d5fd6b0bf48b768af213b6ad3b28", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/58125", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"b5101500506de48205a503ca430bfad04f7ff0c3", "patchset"=>"1"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>I4768884909e0d5fd6b0bf48b768af213b6ad3b28</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"scripts%2Fdownload_smugmug_galleries~dev~I4768884909e0d5fd6b0bf48b768af213b6ad3b28", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/58125", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"b5101500506de48205a503ca430bfad04f7ff0c3", "patchset"=>"2"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fdownload_smugmug_galleries~dev~I4768884909e0d5fd6b0bf48b768af213b6ad3b28</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"I1045046f50704f6e3bd08b05af5724c2f6bf137b", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/15986", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/gerrit", "branch"=>"master", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"78c1fe7f594a2df7b277d699252a94370976a474", "patchset"=>"1"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>I1045046f50704f6e3bd08b05af5724c2f6bf137b</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:18:38 +0000 : 
+{"change"=>"ansible%2Fgerrit~master~I1045046f50704f6e3bd08b05af5724c2f6bf137b", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/15986", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/gerrit", "branch"=>"master", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"78c1fe7f594a2df7b277d699252a94370976a474", "patchset"=>"2"}
+2017-04-26 18:18:38 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fgerrit~master~I1045046f50704f6e3bd08b05af5724c2f6bf137b</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:18:38</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:18:38 +0000 : OK
+2017-04-26 18:18:38 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:18:38 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"I29dfbba871e4704ae9ecb58f98a95f0f32912e10", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/31060", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"30d1716b13b8ea9471934ef47cb2bf7090fa36d7", "patchset"=>"1"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I29dfbba871e4704ae9ecb58f98a95f0f32912e10</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"ansible%2Fnginx~master~I29dfbba871e4704ae9ecb58f98a95f0f32912e10", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/31060", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "topic"=>nil, "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"30d1716b13b8ea9471934ef47cb2bf7090fa36d7", "patchset"=>"2"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fnginx~master~I29dfbba871e4704ae9ecb58f98a95f0f32912e10</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"I3c785cda80c25fb04deac83189e6c44b21782899", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/54946", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/java", "branch"=>"master", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"5bce64dcd86e1753eaf7363fd1f4a41d2052b8e5", "patchset"=>"1"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I3c785cda80c25fb04deac83189e6c44b21782899</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"ansible%2Fjava~master~I3c785cda80c25fb04deac83189e6c44b21782899", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/54946", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/java", "branch"=>"master", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"5bce64dcd86e1753eaf7363fd1f4a41d2052b8e5", "patchset"=>"2"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fjava~master~I3c785cda80c25fb04deac83189e6c44b21782899</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/java</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"I26e1f62560889b28c68302675f64e5ba8313cd3d", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/87679", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/packetbeat", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"1cb7fec6281705a7562ef8f8ac1b920c7596a58e", "patchset"=>"1"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I26e1f62560889b28c68302675f64e5ba8313cd3d</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"ansible%2Fpacketbeat~dev~I26e1f62560889b28c68302675f64e5ba8313cd3d", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/87679", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/packetbeat", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"1cb7fec6281705a7562ef8f8ac1b920c7596a58e", "patchset"=>"2"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fpacketbeat~dev~I26e1f62560889b28c68302675f64e5ba8313cd3d</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/packetbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"Ib9c863dd371bf6ab7c36593e9157ed7247147927", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/87090", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/topbeat", "branch"=>"dev", "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"8751ee5f9173633e2f558715f2f69bb1403d790d", "patchset"=>"1"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>Ib9c863dd371bf6ab7c36593e9157ed7247147927</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/topbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"ansible%2Ftopbeat~dev~Ib9c863dd371bf6ab7c36593e9157ed7247147927", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/87090", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/topbeat", "branch"=>"dev", "topic"=>nil, "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"8751ee5f9173633e2f558715f2f69bb1403d790d", "patchset"=>"2"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Ftopbeat~dev~Ib9c863dd371bf6ab7c36593e9157ed7247147927</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/topbeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"I9bcea1232aee238f7fd54c798a2a98a7536485c8", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/27668", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"master", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"84567d40c13d55f28f134c25b9e484bf06f18943", "patchset"=>"1"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>I9bcea1232aee238f7fd54c798a2a98a7536485c8</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:13 +0000 : 
+{"change"=>"gerrit%2Fbackup_tool~master~I9bcea1232aee238f7fd54c798a2a98a7536485c8", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/27668", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"master", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"84567d40c13d55f28f134c25b9e484bf06f18943", "patchset"=>"2"}
+2017-04-26 18:20:13 +0000 : 
+<GerritEvent>
+  <ChangeId>gerrit%2Fbackup_tool~master~I9bcea1232aee238f7fd54c798a2a98a7536485c8</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:13</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:13 +0000 : OK
+2017-04-26 18:20:13 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:13 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"Icd2d33c7d3417244963cb17353d73a79051c80bd", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/92521", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"cecfa4fe9750741f7b352b118d52461666f7a99a", "patchset"=>"1"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>Icd2d33c7d3417244963cb17353d73a79051c80bd</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"ansible%2Fnginx~master~Icd2d33c7d3417244963cb17353d73a79051c80bd", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/92521", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/nginx", "branch"=>"master", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"cecfa4fe9750741f7b352b118d52461666f7a99a", "patchset"=>"2"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fnginx~master~Icd2d33c7d3417244963cb17353d73a79051c80bd</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/nginx</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"I14ba730fd30b6f08aacbb019e1d229fcd319f372", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/79018", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/locale-timezone", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"b1363a28a7246989b4db6c7370e1d289748b4fd3", "patchset"=>"1"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>I14ba730fd30b6f08aacbb019e1d229fcd319f372</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/locale-timezone</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"ansible%2Flocale-timezone~dev~I14ba730fd30b6f08aacbb019e1d229fcd319f372", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/79018", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/locale-timezone", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"b1363a28a7246989b4db6c7370e1d289748b4fd3", "patchset"=>"2"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flocale-timezone~dev~I14ba730fd30b6f08aacbb019e1d229fcd319f372</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/locale-timezone</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"I9ee50560355912f3a9c89239617321fc87f0deb5", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/52333", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/apache", "branch"=>"master", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"fd584f33accbe5ce726cf7d06febd06ae6db3848", "patchset"=>"1"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>I9ee50560355912f3a9c89239617321fc87f0deb5</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"ansible%2Fapache~master~I9ee50560355912f3a9c89239617321fc87f0deb5", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/52333", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"ansible/apache", "branch"=>"master", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"fd584f33accbe5ce726cf7d06febd06ae6db3848", "patchset"=>"2"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~master~I9ee50560355912f3a9c89239617321fc87f0deb5</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"I612e04e7c5d7e3e4bb74bacb3beaf1a8499cfa1d", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/57489", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/elasticsearch", "branch"=>"master", "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"e192d1f269cd7e15c7230e92bf1ed2924ed658df", "patchset"=>"1"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>I612e04e7c5d7e3e4bb74bacb3beaf1a8499cfa1d</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"ansible%2Felasticsearch~master~I612e04e7c5d7e3e4bb74bacb3beaf1a8499cfa1d", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/57489", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/elasticsearch", "branch"=>"master", "topic"=>nil, "uploader"=>"edward.editor (edward.editor@test.com)", "commit"=>"e192d1f269cd7e15c7230e92bf1ed2924ed658df", "patchset"=>"2"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Felasticsearch~master~I612e04e7c5d7e3e4bb74bacb3beaf1a8499cfa1d</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/elasticsearch</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"I18a98ecaf5f8c5a59ee77c6be90fbf87d8114208", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/39046", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"vagrant/gerrit", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"5c11ce215412648e238f85b122167200bd3baf3e", "patchset"=>"1"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>I18a98ecaf5f8c5a59ee77c6be90fbf87d8114208</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:26 +0000 : 
+{"change"=>"vagrant%2Fgerrit~dev~I18a98ecaf5f8c5a59ee77c6be90fbf87d8114208", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/39046", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"vagrant/gerrit", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"5c11ce215412648e238f85b122167200bd3baf3e", "patchset"=>"2"}
+2017-04-26 18:20:26 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Fgerrit~dev~I18a98ecaf5f8c5a59ee77c6be90fbf87d8114208</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:26</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:26 +0000 : OK
+2017-04-26 18:20:26 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:26 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"I8c4e8280bef34fa813bac2ee803d5cf13383078f", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/99598", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"python/rental_market", "branch"=>"dev", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"daf456421112604427da52c543950559902c55a2", "patchset"=>"1"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I8c4e8280bef34fa813bac2ee803d5cf13383078f</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/rental_market</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"python%2Frental_market~dev~I8c4e8280bef34fa813bac2ee803d5cf13383078f", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/99598", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"python/rental_market", "branch"=>"dev", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"daf456421112604427da52c543950559902c55a2", "patchset"=>"2"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Frental_market~dev~I8c4e8280bef34fa813bac2ee803d5cf13383078f</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/rental_market</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"I7c4669ffea6cdf574814662cb2ced59240bc55e9", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/15460", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"6051be5ff9939efb51805d7b0ef6d3ce30f67253", "patchset"=>"1"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I7c4669ffea6cdf574814662cb2ced59240bc55e9</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"scm%2Fdownload_repos~dev~I7c4669ffea6cdf574814662cb2ced59240bc55e9", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/15460", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "topic"=>nil, "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"6051be5ff9939efb51805d7b0ef6d3ce30f67253", "patchset"=>"2"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~dev~I7c4669ffea6cdf574814662cb2ced59240bc55e9</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"I6ba795cf7b734e65c8ab3c6c3fe2f1efa4bc4094", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/82600", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/jenkins", "branch"=>"dev", "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"09782dc747b980a24c64db692c3b08bea7e801a4", "patchset"=>"1"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I6ba795cf7b734e65c8ab3c6c3fe2f1efa4bc4094</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/jenkins</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"ansible%2Fjenkins~dev~I6ba795cf7b734e65c8ab3c6c3fe2f1efa4bc4094", "is-draft"=>"True", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/82600", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"ansible/jenkins", "branch"=>"dev", "topic"=>nil, "uploader"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"09782dc747b980a24c64db692c3b08bea7e801a4", "patchset"=>"2"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fjenkins~dev~I6ba795cf7b734e65c8ab3c6c3fe2f1efa4bc4094</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/jenkins</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"I600caf39a39e17b806db28b411c0e55c58882524", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/41188", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"eaa8e8d41aecd92d8279bf5b492e1488acfa8123", "patchset"=>"1"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I600caf39a39e17b806db28b411c0e55c58882524</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"scripts%2Fdownload_smugmug_galleries~master~I600caf39a39e17b806db28b411c0e55c58882524", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/41188", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"scripts/download_smugmug_galleries", "branch"=>"master", "topic"=>nil, "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"eaa8e8d41aecd92d8279bf5b492e1488acfa8123", "patchset"=>"2"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>scripts%2Fdownload_smugmug_galleries~master~I600caf39a39e17b806db28b411c0e55c58882524</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>scripts/download_smugmug_galleries</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"I976dfb053749f03639818897068abfbe34d7b201", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/61055", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"vagrant/elk", "branch"=>"master", "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"55c64b6f0743e4c2c05ab1079556f8b9f6fe95dd", "patchset"=>"1"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>I976dfb053749f03639818897068abfbe34d7b201</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>vagrant/elk</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:20:44 +0000 : 
+{"change"=>"vagrant%2Felk~master~I976dfb053749f03639818897068abfbe34d7b201", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/61055", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"vagrant/elk", "branch"=>"master", "topic"=>nil, "uploader"=>"bob.builder (bob.builder@test.com)", "commit"=>"55c64b6f0743e4c2c05ab1079556f8b9f6fe95dd", "patchset"=>"2"}
+2017-04-26 18:20:44 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Felk~master~I976dfb053749f03639818897068abfbe34d7b201</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>vagrant/elk</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:20:44</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-26 18:20:44 +0000 : OK
+2017-04-26 18:20:44 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:20:44 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"Ie5bb15ca272f3aafdd9c4ff8421b483f23693039", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/99785", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"python/papers", "branch"=>"dev", "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"a7a1c8a140105efff0cca3ead725fbd4a3107796", "patchset"=>"1"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>Ie5bb15ca272f3aafdd9c4ff8421b483f23693039</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/papers</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"python%2Fpapers~dev~Ie5bb15ca272f3aafdd9c4ff8421b483f23693039", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/99785", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"python/papers", "branch"=>"dev", "topic"=>nil, "uploader"=>"adam.admin (adam.admin@test.com)", "commit"=>"a7a1c8a140105efff0cca3ead725fbd4a3107796", "patchset"=>"2"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Fpapers~dev~Ie5bb15ca272f3aafdd9c4ff8421b483f23693039</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/papers</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"I1ccd781b1020ae4c33ca8e172fc7fb2b9cb22e98", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/23513", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"2290a3d8e5fa10e1e8b90a4ca521c458646f10da", "patchset"=>"1"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>I1ccd781b1020ae4c33ca8e172fc7fb2b9cb22e98</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"ansible%2Fapache~dev~I1ccd781b1020ae4c33ca8e172fc7fb2b9cb22e98", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/23513", "change-owner"=>"dylan.deploy (dylan.deploy@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "topic"=>nil, "uploader"=>"dylan.deploy (dylan.deploy@test.com)", "commit"=>"2290a3d8e5fa10e1e8b90a4ca521c458646f10da", "patchset"=>"2"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~dev~I1ccd781b1020ae4c33ca8e172fc7fb2b9cb22e98</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>dylan.deploy</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"Ifbb87d94ee0291a1defce4becd45a2949cf30734", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/22561", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"daa92d4a940c86fe2a29af2e5fa5b4114134f551", "patchset"=>"1"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>Ifbb87d94ee0291a1defce4becd45a2949cf30734</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"ansible%2Fapache~dev~Ifbb87d94ee0291a1defce4becd45a2949cf30734", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/22561", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "topic"=>nil, "uploader"=>"john.newman (john.newman@test.com)", "commit"=>"daa92d4a940c86fe2a29af2e5fa5b4114134f551", "patchset"=>"2"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~dev~Ifbb87d94ee0291a1defce4becd45a2949cf30734</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"Ib5c97a0c5bb745202afe011fb13a0ae855e603ef", "is-draft"=>"False", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/50672", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"python/ocr_api", "branch"=>"master", "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"516acca98038a4643e1eb879abdb3d648b245072", "patchset"=>"1"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>Ib5c97a0c5bb745202afe011fb13a0ae855e603ef</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"python%2Focr_api~master~Ib5c97a0c5bb745202afe011fb13a0ae855e603ef", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/50672", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"python/ocr_api", "branch"=>"master", "topic"=>nil, "uploader"=>"tim.tester (tim.tester@test.com)", "commit"=>"516acca98038a4643e1eb879abdb3d648b245072", "patchset"=>"2"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Focr_api~master~Ib5c97a0c5bb745202afe011fb13a0ae855e603ef</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>python/ocr_api</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"I984869d1a5367563153a8360c2e3f150c73f78a2", "is-draft"=>"True", "kind"=>"PatchsetKind.REWORK", "change-url"=>"https://gerrit.com/75173", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"vagrant/gerrit", "branch"=>"master", "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"5e3a334ad506bc6bd924d46147dd0490dfe3347c", "patchset"=>"1"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>I984869d1a5367563153a8360c2e3f150c73f78a2</ChangeId>
+  <Patchset>1</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector
+2017-04-26 18:22:51 +0000 : 
+{"change"=>"vagrant%2Fgerrit~master~I984869d1a5367563153a8360c2e3f150c73f78a2", "is-draft"=>"False", "kind"=>"PatchsetKind.TRIVIAL_REBASE", "change-url"=>"https://gerrit.com/75173", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"vagrant/gerrit", "branch"=>"master", "topic"=>nil, "uploader"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"5e3a334ad506bc6bd924d46147dd0490dfe3347c", "patchset"=>"2"}
+2017-04-26 18:22:51 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Fgerrit~master~I984869d1a5367563153a8360c2e3f150c73f78a2</ChangeId>
+  <Patchset>2</Patchset>
+  <Repo>vagrant/gerrit</Repo>
+  <Branch>master</Branch>
+  <EventType>patchset</EventType>
+  <EventTime>2017-04-26T17:22:51</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-26 18:22:51 +0000 : OK
+2017-04-26 18:22:51 +0000 : getaddrinfo: Name or service not known
+2017-04-26 18:22:51 +0000 : Posting statistics to http://stats.gerrit.com:80/GerritStatCollector

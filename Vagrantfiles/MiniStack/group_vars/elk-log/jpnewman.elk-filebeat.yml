@@ -1,0 +1,27 @@
+---
+filebeat_elasticsearch_host: 10.10.10.10:9200
+filebeat_logstash_host: 10.10.10.11:5044
+
+prospectors:
+  - id: syslog
+    paths:
+    - log_paths:
+        - /var/log/syslog
+        - /var/log/auth.log
+      document_type: syslog
+    type: syslog
+    app_id: elk-stack
+    elasticsearch_index: elk-stack
+
+  - id: varlog
+    paths:
+    - log_paths:
+        - /var/log/*.log
+      exclude_files:
+        - "^syslog$"
+        - "^auth.log$"
+        - "^filebeat.log.*$"
+        - "^topbeat.log.*$"
+      document_type: log
+    app_id: elk-stack
+    elasticsearch_index: elk-stack

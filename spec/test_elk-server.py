@@ -1,3 +1,9 @@
+# server
+def test_disk_free_space(Command):
+    command = Command("df -P / | awk '/%/ {print $5}' | sed -e 's/%//'")
+    assert int(command.stdout.strip()) <= 95
+
+
 # elasticsearch
 def test_elasticsearch_running_and_enabled(Service):
     elasticsearch = Service("elasticsearch")
@@ -5,8 +11,23 @@ def test_elasticsearch_running_and_enabled(Service):
     assert elasticsearch.is_enabled
 
 
-def test_elasticsearch_is_listening(Socket):
-    assert Socket("tcp://127.0.0.1:9200").is_listening
+def test_elasticsearch_is_listening(Ansible, Socket):
+    hostvars = Ansible.get_variables()
+    socket_addr = "{0}:9200".format(hostvars['ansible_host']) or "10.10.10.10:9200"
+    assert Socket("tcp://{0}".format(socket_addr)).is_listening
+
+
+def test_elasticsearch_log_for_errors(Command):
+    command = Command("""
+d1=$(date --date="-10 min" "+%Y-%m-%dT%H:%M")
+d2=$(date "+%FT%R")
+awk \
+-v start="$d1" \
+-v end="$d2" \
+'$0 > start, $0 < end || $0 ~ d2' \
+/var/log/elasticsearch/elasticsearch.log
+""")
+    assert '[ERROR' not in command.stdout.strip()
 
 
 # redis server
@@ -34,6 +55,19 @@ def test_redis_command_output(Command):
     command = Command('redis-cli ping')
     assert command.rc == 0
     assert command.stdout.rstrip() == 'PONG'
+
+
+def test_redis_log_for_errors(Command):
+    command = Command("""
+d1=$(date --date="-10 min" "+%Y-%m-%dT%H:%M")
+d2=$(date "+%FT%R")
+awk \
+-v start="$d1" \
+-v end="$d2" \
+'$0 > start, $0 < end || $0 ~ d2' \
+/var/log/redis/redis-server.log
+""")
+    assert '[ERROR' not in command.stdout.strip()
 
 
 # http://redis.io/topics/admin
@@ -69,6 +103,19 @@ def test_kibana_is_listening(Socket):
     assert Socket("tcp://127.0.0.1:5601").is_listening
 
 
+def test_kibana_log_for_errors(Command):
+    command = Command("""
+d1=$(date --date="-10 min" "+%Y-%m-%dT%H:%M")
+d2=$(date "+%FT%R")
+awk \
+-v start="$d1" \
+-v end="$d2" \
+'$0 > start, $0 < end || $0 ~ d2' \
+/var/log/nginx/kibana-error.log
+""")
+    assert '[ERROR' not in command.stdout.strip()
+
+
 # nginx
 def test_nginx_running_and_enabled(Service):
     nginx = Service("nginx")
@@ -90,6 +137,19 @@ def test_nginx_is_configtest(Sudo, Command):
     assert 'successful' in command.stderr.strip()
 
 
+def test_nginx_log_for_errors(Command):
+    command = Command("""
+d1=$(date --date="-10 min" "+%Y-%m-%dT%H:%M")
+d2=$(date "+%FT%R")
+awk \
+-v start="$d1" \
+-v end="$d2" \
+'$0 > start, $0 < end || $0 ~ d2' \
+/var/log/nginx/error.log
+""")
+    assert '[ERROR' not in command.stdout.strip()
+
+
 # logstash
 def test_logstash_indexer_running_and_enabled(Service):
     logstash = Service("logstash")
@@ -97,10 +157,23 @@ def test_logstash_indexer_running_and_enabled(Service):
     assert logstash.is_enabled
 
 
-def test_logstash_config(Command):
-    command = Command('service logstash configtest')
-    assert command.rc == 0
-    # assert command.stdout.rstrip() == 'Configuration OK'
+def test_logstash_log_for_errors(Command):
+    command = Command("""
+d1=$(date --date="-10 min" "+%Y-%m-%dT%H:%M")
+d2=$(date "+%FT%R")
+awk \
+-v start="$d1" \
+-v end="$d2" \
+'$0 > start, $0 < end || $0 ~ d2' \
+/var/log/logstash/logstash-plain.log
+""")
+    assert '[ERROR' not in command.stdout.strip()
+
+
+# def test_logstash_config(Command):
+#     command = Command('/usr/share/logstash/bin/logstash -t -f /etc/logstash/conf.d --path.settings=/etc/logstash/')
+#     assert command.rc == 0
+#     # assert command.stdout.rstrip() == 'Configuration OK'
 
 
 # topbeat

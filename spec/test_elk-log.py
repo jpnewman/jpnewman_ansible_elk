@@ -1,3 +1,9 @@
+# server
+def test_disk_free_space(Command):
+    command = Command("df -P / | awk '/%/ {print $5}' | sed -e 's/%//'")
+    assert int(command.stdout.strip()) <= 95
+
+
 # logstash
 def test_logstash_running_and_enabled(Service):
     logstash = Service("logstash")
@@ -5,10 +11,10 @@ def test_logstash_running_and_enabled(Service):
     assert logstash.is_enabled
 
 
-def test_logstash_config(Command):
-    command = Command('service logstash configtest')
-    assert command.rc == 0
-    # assert command.stdout.rstrip() == 'Configuration OK'
+# def test_logstash_config(Command):
+#     command = Command('/usr/share/logstash/bin/logstash -t -f /etc/logstash/conf.d --path.settings=/etc/logstash/')
+#     assert command.rc == 0
+#     # assert command.stdout.rstrip() == 'Configuration OK'
 
 
 def test_logstash_indexer_lumberjack_tcp_is_listening(Socket):

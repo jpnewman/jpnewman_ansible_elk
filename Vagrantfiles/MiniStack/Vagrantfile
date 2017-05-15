@@ -1,5 +1,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
+ANSIBLE_HOST_VARS = {}
+
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = false
 
@@ -13,6 +15,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.hostmanager.enabled = true
     config.hostmanager.manage_host = true
     config.hostmanager.manage_guest = false
+  end
+
+  if Vagrant.has_plugin?("vagrant-timezone")
+    config.timezone.value = "UTC"
   end
 
   config.vm.synced_folder '../..', '/vagrant'
@@ -29,6 +35,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       v.memory = 4092
     end
   end
+  ANSIBLE_HOST_VARS["elk"] = {
+    "ansible_host" => "10.10.10.10",
+    "ansible_port" => 22
+  }
 
   config.vm.define "log" do |node|
     node.vm.hostname = "elk-log-001"
@@ -37,6 +47,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       v.memory = 2048
     end
   end
+  ANSIBLE_HOST_VARS["log"] = {
+    "ansible_host" => "10.10.10.11",
+    "ansible_port" => 22
+  }
 
   config.vm.define "app" do |node|
     node.vm.hostname = "test-app"
@@ -44,13 +58,19 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     node.vm.provider "virtualbox" do |v|
       v.cpus = 2
     end
+    ANSIBLE_HOST_VARS["app"] = {
+      "ansible_host" => "10.10.10.12",
+      "ansible_port" => 22
+    }
 
     node.vm.provision "ansible" do |ansible|
+      # ansible.skip_inventory_host_and_port_settings = true
+      ansible.host_vars = ANSIBLE_HOST_VARS
       ansible.playbook = "playbook.yml"
       ansible.limit = "all"
       ansible.groups = {
         "elk-server" => "elk",
-        "elk-log-001" => "log",
+        "elk-log" => "log",
         "test-app" => "app"
       }
       ansible.verbose = "vvv"

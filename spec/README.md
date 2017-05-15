@@ -36,16 +36,18 @@ pip install ansi2html
 unbuffer ./run_all.sh | tee >(ansi2html > run_all.html)
 ~~~
 
-## elk-server
+## elk-server (MiniStack)
 
 ~~~bash
-testinfra -v test_elk-server.py --ssh-config=.ssh_config --sudo --hosts=elk-server
+testinfra -v test_elk-server.py --ssh-config=.ssh_config --sudo --connection=ansible --ansible-inventory=../Vagrantfiles/MiniStack/.vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory --hosts='elk-server'
 ~~~
 
-## elk-log-001
+> The MiniStack should be created with vagrant first
+
+## elk-log
 
 ~~~bash
-testinfra -v test_elk-log.py --ssh-config=.ssh_config --sudo --hosts=elk-log-001
+testinfra -v test_elk-log.py --ssh-config=.ssh_config --sudo --hosts=elk-log
 ~~~
 
 ## Artifactory (parallel execution)

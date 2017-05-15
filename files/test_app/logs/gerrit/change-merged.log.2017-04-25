@@ -1,0 +1,180 @@
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"ansible%2Fapache~dev~I12d0b28b178373dcbd12cf44ac708470fec54b5f", "change-url"=>"https://gerrit.com/98316", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"ansible/apache", "branch"=>"dev", "topic"=>nil, "submitter"=>"john.newman (john.newman@test.com)", "commit"=>"9a6b6d5c03d6ffeefbf07b3799391783a93f9a6e", "newrev"=>"13cb1c046f99dd866e2b2e1e9147acf1b3e55700"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fapache~dev~I12d0b28b178373dcbd12cf44ac708470fec54b5f</ChangeId>
+  <Repo>ansible/apache</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"scm%2Fdownload_repos~master~I4a0aa4d8b83dc834b3621d1ae3def066a0c6fc12", "change-url"=>"https://gerrit.com/55008", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "topic"=>nil, "submitter"=>"adam.admin (adam.admin@test.com)", "commit"=>"f832d431b81404878cc234ce6da22d12de10e1c2", "newrev"=>"c2013b28f2aa1bf0fafafd49741d1c3df79eba79"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~master~I4a0aa4d8b83dc834b3621d1ae3def066a0c6fc12</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"ansible%2Fcommon~master~Ic5b0adf67892665bca0ed3fdf1e2f47a43a76bca", "change-url"=>"https://gerrit.com/78882", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/common", "branch"=>"master", "topic"=>nil, "submitter"=>"tim.tester (tim.tester@test.com)", "commit"=>"c03f7d9b0f3e5beb27c1e5a0c51d3ff57ed22e34", "newrev"=>"f52a59bd7bfbd3d3862a9299bbed5615107bb6ba"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~master~Ic5b0adf67892665bca0ed3fdf1e2f47a43a76bca</ChangeId>
+  <Repo>ansible/common</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"scm%2Fdownload_repos~master~Iaf23509da441e7b3bc9affd662df02b8add42e11", "change-url"=>"https://gerrit.com/94203", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"scm/download_repos", "branch"=>"master", "topic"=>nil, "submitter"=>"edward.editor (edward.editor@test.com)", "commit"=>"44c99c836ced2b2c2e6451b093df73343a7766ee", "newrev"=>"97a074db6ac62756b90a16f7a8ec9411c515da4f"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~master~Iaf23509da441e7b3bc9affd662df02b8add42e11</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:33:56 +0000 : 
+{"change"=>"ansible%2Fgerrit~dev~I2ed71b58ae4fc690152f54dcea5b06e4f94c89bb", "change-url"=>"https://gerrit.com/20599", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "topic"=>nil, "submitter"=>"adam.admin (adam.admin@test.com)", "commit"=>"85fcef64183e4ac2b48861efe5888dd5e6390002", "newrev"=>"c4746d482739d063ad266aebefbc09e75d6a8217"}
+2017-04-25 16:33:56 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fgerrit~dev~I2ed71b58ae4fc690152f54dcea5b06e4f94c89bb</ChangeId>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:33:56</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:33:56 +0000 : OK
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"ansible%2Flogstash-indexer~master~I8f04f51d5a051541c524d5ec7e516ce6cef4295d", "change-url"=>"https://gerrit.com/78462", "change-owner"=>"tim.tester (tim.tester@test.com)", "project"=>"ansible/logstash-indexer", "branch"=>"master", "topic"=>nil, "submitter"=>"tim.tester (tim.tester@test.com)", "commit"=>"e625102ae5d34ea6f451c5f7418e5c73aed5c6b3", "newrev"=>"8f0b38ed68942273a501c5609a425c5287af495d"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Flogstash-indexer~master~I8f04f51d5a051541c524d5ec7e516ce6cef4295d</ChangeId>
+  <Repo>ansible/logstash-indexer</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>tim.tester</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"ansible%2Fcommon~dev~I2ab68c7d4d8fe695f029e2d3fe706b60e14ec7c3", "change-url"=>"https://gerrit.com/14546", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"ansible/common", "branch"=>"dev", "topic"=>nil, "submitter"=>"edward.editor (edward.editor@test.com)", "commit"=>"9e26ecc437f38b5826ca573b9b4e613ee31c6560", "newrev"=>"27083162bce94dfb73731efad0eeb8f9aadbc9ad"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fcommon~dev~I2ab68c7d4d8fe695f029e2d3fe706b60e14ec7c3</ChangeId>
+  <Repo>ansible/common</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"ansible%2Fgerrit~dev~Ia28ea09c9bc340eb76a9b51472d8ddefea61bf71", "change-url"=>"https://gerrit.com/26604", "change-owner"=>"adam.admin (adam.admin@test.com)", "project"=>"ansible/gerrit", "branch"=>"dev", "topic"=>nil, "submitter"=>"adam.admin (adam.admin@test.com)", "commit"=>"5d9581cd8f4afbb10d8fb98c4b47b1a2fc89cbc4", "newrev"=>"370e5bfbdc79d349084376fa180189219a586158"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fgerrit~dev~Ia28ea09c9bc340eb76a9b51472d8ddefea61bf71</ChangeId>
+  <Repo>ansible/gerrit</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>adam.admin</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"python%2Focr_api~dev~I18ab1b21b42d64e8fec460bcd0ce0a21991156b7", "change-url"=>"https://gerrit.com/87406", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"python/ocr_api", "branch"=>"dev", "topic"=>nil, "submitter"=>"edward.editor (edward.editor@test.com)", "commit"=>"1cdc6934c61abbe2f365c8a1d31f6cc9af93dda1", "newrev"=>"d8aaf84d82cbb2abebd2b12453d522ec9483a388"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Focr_api~dev~I18ab1b21b42d64e8fec460bcd0ce0a21991156b7</ChangeId>
+  <Repo>python/ocr_api</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:36:17 +0000 : 
+{"change"=>"vagrant%2Felk~master~I38ec03391a6b4652fa9f61d8f5ae218055ed7240", "change-url"=>"https://gerrit.com/33472", "change-owner"=>"john.newman (john.newman@test.com)", "project"=>"vagrant/elk", "branch"=>"master", "topic"=>nil, "submitter"=>"john.newman (john.newman@test.com)", "commit"=>"4058e34123aa27eb2c8229749ad17ad6796d24fa", "newrev"=>"04d625910dc8fe9290ed3f5ed98545ee1d8a2604"}
+2017-04-25 16:36:17 +0000 : 
+<GerritEvent>
+  <ChangeId>vagrant%2Felk~master~I38ec03391a6b4652fa9f61d8f5ae218055ed7240</ChangeId>
+  <Repo>vagrant/elk</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:36:17</EventTime>
+  <Author>john.newman</Author>
+</GerritEvent>
+2017-04-25 16:36:17 +0000 : OK
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"gerrit%2Fbackup_tool~dev~I13b8e224f8592befcde17e796158ecd72d7e90e3", "change-url"=>"https://gerrit.com/81078", "change-owner"=>"edward.editor (edward.editor@test.com)", "project"=>"gerrit/backup_tool", "branch"=>"dev", "topic"=>nil, "submitter"=>"edward.editor (edward.editor@test.com)", "commit"=>"b42cfaf5a56db9b0c57d70fcc28c1ac8928e99e2", "newrev"=>"4a2d8947f647c0f04ae46897490131ccf4920dd7"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>gerrit%2Fbackup_tool~dev~I13b8e224f8592befcde17e796158ecd72d7e90e3</ChangeId>
+  <Repo>gerrit/backup_tool</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>edward.editor</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"scm%2Fdownload_repos~dev~I0505b35e202537c4ef100832f87a6e95482efed9", "change-url"=>"https://gerrit.com/62641", "change-owner"=>"frank.fixer (frank.fixer@test.com)", "project"=>"scm/download_repos", "branch"=>"dev", "topic"=>nil, "submitter"=>"frank.fixer (frank.fixer@test.com)", "commit"=>"416cc8a8e727e4c9b2866dcb7b1c8d103930f63d", "newrev"=>"5c641c95569d76550e19c95c788cd195909c42c7"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>scm%2Fdownload_repos~dev~I0505b35e202537c4ef100832f87a6e95482efed9</ChangeId>
+  <Repo>scm/download_repos</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>frank.fixer</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"python%2Focr_api~master~I42d62853498d66d7a8d8db8253bc868292b9db14", "change-url"=>"https://gerrit.com/20034", "change-owner"=>"charlie.ci (charlie.ci@test.com)", "project"=>"python/ocr_api", "branch"=>"master", "topic"=>nil, "submitter"=>"charlie.ci (charlie.ci@test.com)", "commit"=>"86ac58737674d8ccae754aaef52b44764a1b5734", "newrev"=>"be5e519af38abd49d06da10e9c83d1b3fee7a34e"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>python%2Focr_api~master~I42d62853498d66d7a8d8db8253bc868292b9db14</ChangeId>
+  <Repo>python/ocr_api</Repo>
+  <Branch>master</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>charlie.ci</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"ansible%2Fopenldap-serveransible%2Fkibana~dev~I05ec56c00b7a6c53e1e6650aa8fa96aebd3c9ff1", "change-url"=>"https://gerrit.com/62569", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/openldap-serveransible/kibana", "branch"=>"dev", "topic"=>nil, "submitter"=>"bob.builder (bob.builder@test.com)", "commit"=>"aadd2a138394e3b961f87b44fecb945527d61b9b", "newrev"=>"5caaee8357ac62e1247e4227b47ac536da671ee4"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Fopenldap-serveransible%2Fkibana~dev~I05ec56c00b7a6c53e1e6650aa8fa96aebd3c9ff1</ChangeId>
+  <Repo>ansible/openldap-serveransible/kibana</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK
+2017-04-25 16:57:21 +0000 : 
+{"change"=>"ansible%2Ffilebeat~dev~I752b7450b80f9a5368b05a8601faeb1617b46969", "change-url"=>"https://gerrit.com/50689", "change-owner"=>"bob.builder (bob.builder@test.com)", "project"=>"ansible/filebeat", "branch"=>"dev", "topic"=>nil, "submitter"=>"bob.builder (bob.builder@test.com)", "commit"=>"4583984f3c67f2180d230dd236f60461dc022efd", "newrev"=>"12a7e925d52d1d49866e4f179ebc123f94be67a0"}
+2017-04-25 16:57:21 +0000 : 
+<GerritEvent>
+  <ChangeId>ansible%2Ffilebeat~dev~I752b7450b80f9a5368b05a8601faeb1617b46969</ChangeId>
+  <Repo>ansible/filebeat</Repo>
+  <Branch>dev</Branch>
+  <EventType>merged</EventType>
+  <EventTime>2017-04-25T15:57:21</EventTime>
+  <Author>bob.builder</Author>
+</GerritEvent>
+2017-04-25 16:57:21 +0000 : OK

@@ -1,5 +1,4 @@
 ---
-elasticsearch_with_plugin: true
+elasticsearch_with_plugin: false # TODO: Switch to X-Pack
 
-elasticsearch_discovery_zen_ping_multicast_enabled: 'false'
 elasticsearch_network_host: "10.10.10.10"

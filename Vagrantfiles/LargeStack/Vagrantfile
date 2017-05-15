@@ -1,0 +1,113 @@
+VAGRANTFILE_API_VERSION = "2"
+ENV["LC_ALL"] = "en_US.UTF-8"
+
+ANSIBLE_GROUPS = {}
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.ssh.insert_key = false
+
+  config.vm.box = "ubuntu/trusty64"
+
+  if Vagrant.has_plugin?("vagrant-cachier")
+    config.cache.scope = :machine
+  end
+
+  if Vagrant.has_plugin?("vagrant-hostmanager")
+    config.hostmanager.enabled = true
+    config.hostmanager.manage_host = true
+    config.hostmanager.manage_guest = false
+  end
+
+  if Vagrant.has_plugin?("vagrant-timezone")
+    config.timezone.value = "UTC"
+  end
+
+  config.vm.synced_folder '../..', '/vagrant'
+
+  config.vm.provider "virtualbox" do |v|
+    v.memory = 512
+    v.cpus = 4
+  end
+
+  ANSIBLE_GROUPS["elk-haproxy"] = []
+  (1..2).each do |i|
+    node_name = "elk-haproxy-#{sprintf("%03d", i)}"
+    config.vm.define node_name do |node|
+      node.vm.hostname = node_name
+      node.vm.network :private_network, ip: "10.10.10.3#{i}"
+      node.vm.provider "virtualbox" do |v|
+        v.memory = 2048
+      end
+    end
+    ANSIBLE_GROUPS["elk-haproxy"].push(node_name)
+  end
+
+  ANSIBLE_GROUPS["elk-kibana"] = []
+  (1..2).each do |i|
+    node_name = "elk-kibana-#{sprintf("%03d", i)}"
+    config.vm.define node_name do |node|
+      node.vm.hostname = node_name
+      node.vm.network :private_network, ip: "10.10.10.3#{i}"
+      node.vm.provider "virtualbox" do |v|
+        v.memory = 2048
+      end
+    end
+    ANSIBLE_GROUPS["elk-kibana"].push(node_name)
+  end
+
+  ANSIBLE_GROUPS["elk-reddis"] = []
+  (1..2).each do |i|
+    node_name = "elk-reddis-#{sprintf("%03d", i)}"
+    config.vm.define node_name do |node|
+      node.vm.hostname = node_name
+      node.vm.network :private_network, ip: "10.10.10.4#{i}"
+      node.vm.provider "virtualbox" do |v|
+        v.memory = 1024
+      end
+    end
+    ANSIBLE_GROUPS["elk-reddis"].push(node_name)
+  end
+
+  ANSIBLE_GROUPS["elk-indexer"] = []
+  (1..2).each do |i|
+    node_name = "elk-indexer-#{sprintf("%03d", i)}"
+    config.vm.define node_name do |node|
+      node.vm.hostname = node_name
+      node.vm.network :private_network, ip: "10.10.10.4#{i}"
+      node.vm.provider "virtualbox" do |v|
+        v.memory = 1024
+      end
+    end
+    ANSIBLE_GROUPS["elk-indexer"].push(node_name)
+  end
+
+  ANSIBLE_GROUPS["elk-shipper"] = []
+  (1..2).each do |i|
+    node_name = "elk-shipper-#{sprintf("%03d", i)}"
+    config.vm.define node_name do |node|
+      node.vm.hostname = node_name
+      node.vm.network :private_network, ip: "10.10.10.4#{i}"
+      node.vm.provider "virtualbox" do |v|
+        v.memory = 1024
+      end
+    end
+    ANSIBLE_GROUPS["elk-shipper"].push(node_name)
+  end
+
+  ANSIBLE_GROUPS["test-app"] = []
+  config.vm.define "app" do |node|
+    node.vm.hostname = "test-app"
+    node.vm.network :private_network, ip: "10.10.10.50"
+    node.vm.provider "virtualbox" do |v|
+      v.cpus = 2
+    end
+    ANSIBLE_GROUPS["test-app"].push("app")
+
+    node.vm.provision "ansible" do |ansible|
+      ansible.playbook = "playbook.yml"
+      ansible.limit = "all"
+      ansible.groups = ANSIBLE_GROUPS
+      ansible.verbose = "vvv"
+    end
+  end
+end
